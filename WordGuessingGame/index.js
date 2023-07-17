@@ -83,7 +83,6 @@ const init = () => {
         button.addEventListener("click", () => {
             message.innerText = `Correct Letter`;
             message.style.color = "#080000";
-
             let charArray = randomWord.toUpperCase().split("");
             let inputSpace = document.getElementsByClassName("inputSpace");
 
